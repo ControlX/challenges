@@ -11,7 +11,7 @@ If there are multiple possible answers ( like in the sample case above ), output
 
 If there is no duplicate, output -1
  */
-package io.controlx.array;
+package io.github.controlx.array;
 
 import java.util.HashMap;
 

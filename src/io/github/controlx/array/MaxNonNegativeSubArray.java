@@ -45,7 +45,7 @@ Explanation 2:
     The three sub-arrays are [10], [2, 3], [100].
     The answer is [100] as its sum is larger than the other two.
  */
-package io.controlx.array;
+package io.github.controlx.array;
 
 import java.util.Arrays;
 import java.util.Stack;

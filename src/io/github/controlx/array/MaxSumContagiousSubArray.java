@@ -31,7 +31,7 @@ Output 2:
 Explanation 2:
     The subarray [4,-1,2,1] has the maximum possible sum of 6.
  */
-package io.controlx.array;
+package io.github.controlx.array;
 
 import java.util.Arrays;
 

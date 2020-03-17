@@ -1,4 +1,4 @@
-package io.controlx.utils;
+package io.github.controlx.utils;
 
 public class Utils {
 

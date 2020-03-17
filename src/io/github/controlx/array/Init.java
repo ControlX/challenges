@@ -1,4 +1,4 @@
-package io.controlx.array;
+package io.github.controlx.array;
 
 public class Init {
 
