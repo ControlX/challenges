@@ -80,6 +80,19 @@ public class MaxSumContagiousSubArray {
 		 * If you go from the start and up from the left, 
 		 * which is what you're saying, 
 		 * it's not going to give you the correct answer for obvious reasons.
+		 * 
+		 * More details for left to right traversal:
+		 * 
+		 * You want the MSA, meaning the elements are continuous. 
+		 * Since it is an array, you'll go from 0 to arrayCount, 
+		 * which you can think as left to right. Draw your full array. 
+		 * Going from left to right find the MSA. Now break the array 
+		 * into two arrays, a leftArray and a rightArray. If you try 
+		 * to find the MSS of the leftArray from left to right and the 
+		 * MSS of the rightArray from left to right, you'll lose any 
+		 * overlapping points. That means, once you connect the two MSA, 
+		 * you won't get the true MSA of the big array. 
+		 * 
 		 */
 		for(int i=leftArray.length-1; i>=0; i--) {
 			sum = sum + leftArray[i];
